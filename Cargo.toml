@@ -1,0 +1,13 @@
+[package]
+name = "webscrapering"
+version = "0.1.0"
+authors = ["AssafShabili <assaf6063@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.10.8"
+tokio = { version = "0.2", features = ["full"] }
+scraper = "*"
+select = "*"
